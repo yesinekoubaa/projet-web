@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="css/style quiz.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz - Testez vos connaissances</h1>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="parcours.html">Parcours</a></li>
+        <li><a href="competence.html">Compétences</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="passions.html">Passions</a></li>
+        <li><a href="matieres.html">Matières</a></li>
+        <li><a href="quiz.html" class="active">Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="quiz-section">
+      <h2>Testez vos connaissances en développement web !</h2>
+      <form id="quiz-form">
+        <div class="question">
+          <label>1. HTML signifie :</label><br>
+          <input type="radio" name="q1" value="Hypertext Markup Language"> Hypertext Markup Language<br>
+          <input type="radio" name="q1" value="Home Tool Markup Language"> Home Tool Markup Language<br>
+        </div>
+        <div class="question">
+          <label>2. CSS est utilisé pour :</label><br>
+          <input type="radio" name="q2" value="Styliser des pages web"> Styliser des pages web<br>
+          <input type="radio" name="q2" value="Créer des bases de données"> Créer des bases de données<br>
+        </div>
+        <div class="question">
+          <label>3. Lequel de ces langages est utilisé pour créer des applications web dynamiques ?</label><br>
+          <input type="radio" name="q3" value="PHP"> PHP<br>
+          <input type="radio" name="q3" value="HTML"> HTML<br>
+          <input type="radio" name="q3" value="CSS"> CSS<br>
+        </div>
+        <div class="question">
+          <label>4. Quelle est la fonction principale de JavaScript ?</label><br>
+          <input type="radio" name="q4" value="Ajouter des animations et interactivité aux pages web"> Ajouter des animations et interactivité aux pages web<br>
+          <input type="radio" name="q4" value="Créer des styles visuels"> Créer des styles visuels<br>
+          <input type="radio" name="q4" value="Gérer les bases de données"> Gérer les bases de données<br>
+        </div>
+        <div class="question">
+          <label>5. Quelle est l'extension des fichiers CSS ?</label><br>
+          <input type="radio" name="q5" value=".css"> .css<br>
+          <input type="radio" name="q5" value=".html"> .html<br>
+          <input type="radio" name="q5" value=".js"> .js<br>
+        </div>
+        <div class="question">
+          <label>6. Quelle est l'extension des fichiers html ?</label><br>
+          <input type="radio" name="q6" value=".css"> .css<br>
+          <input type="radio" name="q6" value=".html"> .html<br>
+          <input type="radio" name="q6" value=".js"> .js<br>
+        </div>
+        <div class="question">
+          <label>7. Quelle est l'extension des fichiers JavaScript ?</label><br>
+          <input type="radio" name="q7" value=".css"> .css<br>
+          <input type="radio" name="q7" value=".html"> .html<br>
+          <input type="radio" name="q7" value=".js"> .js<br>
+        </div>
+
+        <button type="button" onclick="submitQuiz()">Valider le quiz</button>
+      </form>
+      <div id="result" class="result"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mon Site Personnel</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

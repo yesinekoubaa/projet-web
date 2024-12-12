@@ -1,0 +1,110 @@
+/* Style global */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #f9f9f9;
+}
+
+header {
+  background: #0077b6;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 5px solid #023e8a;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #023e8a;
+}
+
+/* Main section */
+main {
+  background-image: url("../images/arriere.jpg");
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+main #img {
+  width: 150px; /* Largeur contrôlée, ajustez selon vos besoins */
+  
+  border-radius: 10px; /* Arrondit les coins de l'image */
+  
+  
+  top: 20px; /* Positionne en haut */
+  left: 20px; /* Positionne à gauche */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre pour un bel effet */
+  
+}
+
+
+section {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #0077b6;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #0077b6;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #023e8a;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0077b6;
+  color: white;
+  border-top: 5px solid #023e8a;
+}
+
+footer p {
+  margin: 5px 0;
+}

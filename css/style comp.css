@@ -1,0 +1,105 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 5px solid #023e8a;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin: 0 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.nav-menu a.active, .nav-menu a:hover {
+  background: #023e8a;
+}
+
+/* Section compétences */
+.skills {
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+.skills p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* Tableau des compétences */
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.skills-table thead {
+  background: #0077b6;
+  color: white;
+}
+
+.skills-table th, .skills-table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.skills-table img {
+  width: 50px;
+  height: auto;
+}
+
+.skills-table tbody tr:nth-child(odd) {
+  background: #f1f1f1;
+}
+
+/* Footer */
+.footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #ffdd00;
+  text-decoration: none;
+}
