@@ -104,6 +104,7 @@ body {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+    border-top: 5px solid #023e8a;
   }
   .description {
     margin-top: 20px;
